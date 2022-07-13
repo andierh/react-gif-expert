@@ -1,0 +1,101 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #7c7d7d;
+  }
+  
+  body {
+    padding: 60px;
+  }
+  
+  input {
+    background-color: white;
+    border-radius: 50rem;
+    border: 1px solid rgb(176, 174, 179);
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: rgba(255,255,255,.3);
+    background: #1a1a1a;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+    border-radius: 50rem;
+    text-align: center;
+  }
+  
+  .card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  
+  .card {
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    height: 0%;  
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0);
+    background: #000000;
+    
+    
+  }
+  
+  .card p {
+    background-color: white;
+    flex: 1;
+    font-size: 1rem;
+    margin-top: 5px;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+    
+  }
+  
+  .card img {
+    width: 20rem;
+    height: 15rem;
+    margin: 20px;
+    
+  }
+
+  h1 {
+    text-shadow: 0 0 10px #FFFFFF, -15px -15px 4px rgba(219, 210, 216, 0.18);
+    color: #242225;
+    background: #7c7d7d;
+    }
+
+    button { 
+        background-color: rgba(206,47,152,0.18);
+        border-radius: 50rem;
+        border: 2px solid rgb(97, 32, 158);
+        color: black;
+        font-size: 1rem;
+        outline: none;
+        padding: 10px 15px;
+        width: 20%;
+        text-align: center;
+        float: right; 
+        margin-top: 2%;
+    }
